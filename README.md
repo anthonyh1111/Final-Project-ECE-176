@@ -15,4 +15,5 @@ This project trains a small CNN on CIFAR-10 and evaluates how performance change
  - `train.py` - main training script
 
 ## Running the program
-```bash python train.py
+```bash
+python train.py
