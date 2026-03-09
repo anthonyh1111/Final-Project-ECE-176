@@ -1,1 +1,23 @@
+# Ignore datasets
+data/
 
+# Ignore trained models
+*.pth
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Experiment outputs
+*.png
+*.csv
