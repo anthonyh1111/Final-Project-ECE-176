@@ -17,3 +17,13 @@ This project trains a small CNN on CIFAR-10 and evaluates how performance change
 ## Running the program
 ```bash
 python train.py
+```
+
+## still need to implement 
+- corruption (blur, brightness, shifts, wtv)
+- evaluation experiments (testing accuracy)
+- plotting results
+
+## optional 
+- as suggested by the TA we can implement a harder/larger dataset
+  
