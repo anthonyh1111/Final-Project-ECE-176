@@ -14,6 +14,14 @@ This project trains a small CNN on CIFAR-10 and evaluates how performance change
  - `utils/training_utils.py` - training and evaluation functions
  - `train.py` - main training script
 
+## Important Files 
+
+ - `baseline_cnn_cifar10.pth` - saves the best training accuracy 
+ 
+
+## Important Data for Implementation
+- Highest No-Corruption Train Accuracy is 74 percent 
+
 ## Running the program
 ```bash
 python train.py
@@ -21,9 +29,14 @@ python train.py
 
 ## still need to implement 
 - corruption (blur, brightness, shifts, wtv)
-- evaluation experiments (testing accuracy)
+- evaluation experiments (testing accuracy/ robustness of current model) 
 - plotting results
 
 ## optional 
-- as suggested by the TA we can implement a harder/larger dataset
+- as suggested by the TA we can implement a harder/larger dataset instead of the CIFAR-10 to make it more challenging 
   
+## common error cases 
+- "No Module Named Torch" -> pytorch not installed -> run (pip install torch torchvision torchaudio)
+
+
+

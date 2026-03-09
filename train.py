@@ -48,7 +48,7 @@ def main():
 
         if test_acc > best_test_acc:
             best_test_acc = test_acc
-            torch.save(model.state_dict(), config.MODEL_SAVE_PATH)
+            torch.save(model.state_dict(), config.MODEL_SAVE_PATH) # added this for important export of best accuracy. 
             print(f"Saved best model to {config.MODEL_SAVE_PATH}")
 
     print(f"\nTraining complete. Best test accuracy: {best_test_acc:.4f}")
