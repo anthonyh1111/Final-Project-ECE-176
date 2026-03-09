@@ -40,3 +40,6 @@ python train.py
 
 
 
+## Most recent changes
+
+- just added pycache and gitignore so that push and pulls work correctly as github didnt allow the large dataset to get pushed onto the branch
